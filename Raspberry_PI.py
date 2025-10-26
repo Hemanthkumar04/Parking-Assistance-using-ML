@@ -14,7 +14,7 @@ ECHO = 40
 CAMERA_PIN = 22
 
 print(‘Loading the model ,please wait’)
-model = pickle.load(open('/home/akhil/Downloads/best_estimator.pkl', 'rb'))
+model = pickle.load(open('/home/hemanth/Downloads/best_estimator.pkl', 'rb'))
 print('Model loaded successfully')
 
 GPIO.setmode(GPIO.BOARD)
@@ -168,3 +168,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
